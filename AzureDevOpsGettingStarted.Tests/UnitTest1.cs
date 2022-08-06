@@ -8,7 +8,8 @@ namespace AzureDevOpsGettingStarted.Tests
             Assert.True(true, "Always green unit test.");
         }
 
-        [Fact]
+
+        [Fact(Skip = "Skip always red unit test.")]
         public void Red()
         {
             Assert.True(false, "Always red unit test.");
