@@ -16,5 +16,6 @@ namespace AzureDevOpsGettingStarted.Tests
         }
 
         // some change to test branch policy
+        // test branch policy including admins
     }
 }
