@@ -14,5 +14,7 @@ namespace AzureDevOpsGettingStarted.Tests
         {
             Assert.True(false, "Always red unit test.");
         }
+
+        // some change to test branch policy
     }
 }
