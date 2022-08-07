@@ -8,8 +8,7 @@ public class UnitTest1
         Assert.True(true, "Always green unit test.");
     }
 
-    //[Fact(Skip = "Skip always red unit test.")]
-    [Fact]
+    [Fact(Skip = "Skip always red unit test.")]
     public void Red()
     {
         Assert.True(false, "Always red unit test.");
